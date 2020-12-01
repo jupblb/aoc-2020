@@ -9,4 +9,3 @@ for num_str in fileinput.input():
     if diff_num in nums:
         print(num * diff_num)
     nums.add(num)
-
